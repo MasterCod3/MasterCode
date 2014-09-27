@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+body header {
+  margin: 0;
+  background: #008000;
+}
+body header .barra {
+  margin: auto;
+  margin-top: 80px;
+  height: 100%;
+  width: 70%;
+  background: #00f;
+  position: relative;
+  background: #ff0;
+}
+body header .barra img {
+  float: left;
+}
+body header .barra .titulo {
+  transform: translate(0px, 10px);
+}
+body header .barra .subt {
+  transform: translate(18px, -20px);
+}
+body .principal {
+  margin: auto;
+  margin-top: 0;
+  width: 80%;
+  height: 100%;
+  background: #ffa500;
+  position: relative;
+}
+body footer {
+  background: #3bbab5;
+}
+body footer .cajafooter {
+  margin: auto;
+  height: 100%;
+  width: 70%;
+  background: #00f;
+  position: relative;
+  background: #ff0;
+}
