@@ -1,80 +1,143 @@
 body {
-  margin: 0;
+  text-align: center;
+  margin: 0px;
 }
-body header {
-  margin: 0;
-  background: #008000;
+body .caja_header {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  margin-top: 20px;
+  background: #e5e5e5;
 }
-body header .caja_header_index {
+body .principal {
+  text-align: left;
+  margin: auto;
+  width: 80%;
+  height: 100%;
+  position: relative;
+}
+body .principal header {
+  position: relative;
+  width: 85%;
+  height: 100px;
   margin: auto;
   margin-top: 80px;
-  height: 100%;
-  width: 70%;
-  background: #ff0;
-}
-body header .caja_header_index img {
-  display: inline-block;
-  margin-top: -20px;
-  background: #f00;
-}
-body header .caja_header_index .titulos {
-  background: #00f;
-  display: inline-block;
-  padding: 0px;
-  margin-left: 10px;
-/*.titulo
-					transform:translate(0px, 10px)
-					display inline-block
-					padding-top 0px
+  text-align: left;
+/*img
+				display inline-block
+				margin-top -20px
+				background red
+			
+			.titulos
+				position:absolute;
+				
+
+				h1
+					color: white;
+					
+					
+					
+					margin 0px
+					padding 0px
 					background red
-					position static				
 					
 
-				.subt
-					transform:translate(18px, -20px)
-					margin-top -30px
-					margin-left 110px
-					display inline-block
-					background red
-					position static*/
+				span 
+					margin 0px
+					padding 0px
+					padding-left 20px
+					background yellow
+
+			nav
+				background grey
+				display inline
+				float right 
+				margin: 20px;
+				width 60%
+				/*margin-left 30px
+				margin-top 0px
+				margin-left 50%
+				margin-top -15px*/
 }
-body header .caja_header_index .titulos h1 {
+body .principal header .logo {
+  float: left;
+  width: 100px;
+  height: 100px;
+  transition: transform 1s;
+}
+body .principal header .logo:hover {
+  transform: scale(1.2, 1.2);
+/*a
+
+					img*/
+}
+body .principal header .titulos {
+  position: absolute;
+  left: 90px;
+  top: 20px;
+}
+body .principal header .titulos h1 {
+  display: inline;
   margin: 0px;
   padding: 0px;
-  background: #f00;
+  font-size: 40px;
+  color: #33958f;
+  text-shadow: 2px 2px 5px rgba(173,213,170,0.5);
 }
-body header .caja_header_index .titulos span {
+body .principal header .titulos h2 {
+  position: absolute;
+  top: 38px;
   margin: 0px;
   padding: 0px;
   padding-left: 20px;
-  background: #ff0;
+  font-size: 23px;
+  color: #383838;
+  letter-spacing: 0px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
-body header .caja_header_index nav {
-  background: #808080;
-  display: inline-block;
-  width: 60%;
-  margin-left: 30px;
-  margin-top: 0px;
-/*margin-left 50%
-				margin-top -15px*/
+body .principal header nav {
+  float: right;
+  margin-top: 20px;
+  margin-right: 0px;
+  padding: 0px;
 }
-body header .caja_header_index nav ul {
+body .principal header nav ul {
+  text-align: center;
+  padding: 0px;
+}
+body .principal header nav ul li {
+  display: inline;
+  font-size: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+body .principal header nav ul li a {
+  text-decoration: none;
+  color: #383838;
+  transition: transform 1s;
+}
+body .principal header nav ul li a:hover {
+  color: #33958f;
+  transform: scale(1.2, 1.2);
+}
+body .principal header ¨/*ul {
   text-align: center;
   padding-top: 0px;
   padding-left: 0px;
   padding-rigth: 0px;
   margin: 0px 0px 0px 0px;
 }
-body header .caja_header_index nav ul li {
+body .principal header ¨/*ul li {
   display: inline;
   padding: 10px;
   font-size: 30px;
 }
-body header .caja_header_index nav ul li a {
+body .principal header ¨/*ul li a {
   text-decoration: none;
+*
 }
-body section .caja_body_index,
-body .index .caja_body_index {
+section .caja_body_index,
+.index .caja_body_index {
   margin: auto;
   margin-top: 0;
   width: 80%;
@@ -82,10 +145,10 @@ body .index .caja_body_index {
   background: #ffa500;
   position: relative;
 }
-body footer {
+footer {
   background: #3bbab5;
 }
-body footer .caja_footer_index {
+footer .caja_footer_index {
   margin: auto;
   height: 100%;
   width: 70%;

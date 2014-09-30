@@ -2,94 +2,99 @@
 colorbody= #FEFDFD
 colorheader=#E5E5E5
 colorfooter=#3BBAB5
+negro=#383838
 
 body
-	margin 0
-	
-	header
-		margin 0
-		background green
+	text-align center
+	margin 0px
 
-		.caja_header_index
+	.caja_header
+		position: absolute;
+		width 100%
+		height 70px
+		margin-top 20px
+		background #E5E5E5
+
+	.principal
+		text-align left
+		margin auto 
+		width 80%
+		height 100%
+		position relative
+	
+		header
+			
+			position relative
+			width 85%
+			height 100px
 			margin auto
 			margin-top 80px
-			height 100%
-			width 70%
-			background yellow
+			text-align left
 
-			img
-				display inline-block
-				margin-top -20px
-				background red
+			.logo
+				float left
+				width 100px
+				height 100px
+				transition transform 1s
+
+			.logo:hover
+				transform scale(1.2,1.2)		
+
 			
 			.titulos
-				background blue
-				display inline-block
-				padding 0px
-				margin-left 10px
+				position absolute
+				left 90px
+				top 20px
 
 				h1
+					display inline
 					margin 0px
 					padding 0px
-					background red
-
-				span 
-					margin 0px
-					padding 0px
-					padding-left 20px
-					background yellow
-
-				/*.titulo
-					transform:translate(0px, 10px)
-					display inline-block
-					padding-top 0px
-					background red
-					position static				
+					font-size 40px
+					color #33958F
+					text-shadow: 2px 2px 5px rgba(173,213,170,0.5)
 					
-
-				.subt
-					transform:translate(18px, -20px)
-					margin-top -30px
-					margin-left 110px
-					display inline-block
-					background red
-					position static*/
-
+				h2
+					position absolute
+					top 38px
+					margin:0px;
+					padding:0px;
+					padding-left 20px
+					font-size 23px
+					color negro
+					letter-spacing: 0px;
+					text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+					
 			nav
-				background grey
-				display inline-block
-				width 60%
-				margin-left 30px
-				margin-top 0px
-				/*margin-left 50%
-				margin-top -15px*/
+				float right
+				margin-top 20px
+				margin-right 0px
+				padding 0px
 				
 				ul
 					text-align center
-					padding-top 0px
-					padding-left 0px
-					padding-rigth 0px
-					margin 0px 0px 0px 0px
-
+					padding 0px
+					
 					li
 						display inline
-						padding 10px
-						font-size 30px
-
-
-
+						font-size 25px
+						margin-right 10px
+						margin-left 10px
+						
 						a
 							text-decoration none
+							color negro
+							transition transform 1s
 
+						a:hover
+							color #33958F
+							transform scale(1.2,1.2)
 
-				 			
-							
-			
-	section
+		section
 		
-	.index
+			.index
 		
-		.caja_body_index
+				.caja_body_index
 			margin auto
 			margin-top 0
 			width 80%
@@ -97,7 +102,7 @@ body
 			background orange
 			position relative
 
-	footer
+		footer
 		background colorfooter
 		
 		.caja_footer_index
