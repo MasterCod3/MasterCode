@@ -17,27 +17,58 @@ body header .caja_header_index img {
   margin-top: -20px;
   background: #f00;
 }
-body header .caja_header_index .titulo {
-/*transform:translate(0px, 10px)*/
+body header .caja_header_index .titulos {
+  background: #00f;
   display: inline-block;
-  padding-top: 0px;
+  padding: 0px;
+  margin-left: 10px;
+/*.titulo
+					transform:translate(0px, 10px)
+					display inline-block
+					padding-top 0px
+					background red
+					position static				
+					
+
+				.subt
+					transform:translate(18px, -20px)
+					margin-top -30px
+					margin-left 110px
+					display inline-block
+					background red
+					position static*/
+}
+body header .caja_header_index .titulos h1 {
+  margin: 0px;
+  padding: 0px;
   background: #f00;
 }
-body header .caja_header_index .subt {
-/*transform:translate(18px, -20px)*/
-/*margin-top -30px
-				margin-left 110px*/
-  display: inline-block;
-  background: #f00;
+body header .caja_header_index .titulos span {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 20px;
+  background: #ff0;
 }
 body header .caja_header_index nav {
   background: #808080;
-  margin-left: 50%;
+  display: inline-block;
+  width: 60%;
+  margin-left: 30px;
+  margin-top: 0px;
 /*margin-left 50%
 				margin-top -15px*/
 }
+body header .caja_header_index nav ul {
+  text-align: center;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-rigth: 0px;
+  margin: 0px 0px 0px 0px;
+}
 body header .caja_header_index nav ul li {
   display: inline;
+  padding: 10px;
+  font-size: 30px;
 }
 body header .caja_header_index nav ul li a {
   text-decoration: none;
