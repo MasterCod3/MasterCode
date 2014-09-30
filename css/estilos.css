@@ -5,25 +5,45 @@ body header {
   margin: 0;
   background: #008000;
 }
-body header .barra {
+body header .caja_header_index {
   margin: auto;
   margin-top: 80px;
   height: 100%;
   width: 70%;
-  background: #00f;
-  position: relative;
   background: #ff0;
 }
-body header .barra img {
-  float: left;
+body header .caja_header_index img {
+  display: inline-block;
+  margin-top: -20px;
+  background: #f00;
 }
-body header .barra .titulo {
-  transform: translate(0px, 10px);
+body header .caja_header_index .titulo {
+/*transform:translate(0px, 10px)*/
+  display: inline-block;
+  padding-top: 0px;
+  background: #f00;
 }
-body header .barra .subt {
-  transform: translate(18px, -20px);
+body header .caja_header_index .subt {
+/*transform:translate(18px, -20px)*/
+/*margin-top -30px
+				margin-left 110px*/
+  display: inline-block;
+  background: #f00;
 }
-body .principal {
+body header .caja_header_index nav {
+  background: #808080;
+  margin-left: 50%;
+/*margin-left 50%
+				margin-top -15px*/
+}
+body header .caja_header_index nav ul li {
+  display: inline;
+}
+body header .caja_header_index nav ul li a {
+  text-decoration: none;
+}
+body section .caja_body_index,
+body .index .caja_body_index {
   margin: auto;
   margin-top: 0;
   width: 80%;
@@ -34,7 +54,7 @@ body .principal {
 body footer {
   background: #3bbab5;
 }
-body footer .cajafooter {
+body footer .caja_footer_index {
   margin: auto;
   height: 100%;
   width: 70%;
