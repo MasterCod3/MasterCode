@@ -1,3 +1,11 @@
+@font-face {
+  font-family: Pacifico;
+  src: url("fuentes/Pacifico.ttf") format('truetype');
+}
+@font-face {
+  font-family: Handlee-Regular;
+  src: url("fuentes/Handlee-Regular.ttf") format('truetype');
+}
 body {
   text-align: center;
   margin: 0px;
@@ -16,143 +24,72 @@ body .principal {
   height: 100%;
   position: relative;
 }
-body .principal header {
+header {
   position: relative;
   width: 85%;
-  height: 100px;
+  height: auto;
   margin: auto;
   margin-top: 80px;
   text-align: left;
-/*img
-				display inline-block
-				margin-top -20px
-				background red
-			
-			.titulos
-				position:absolute;
-				
-
-				h1
-					color: white;
-					
-					
-					
-					margin 0px
-					padding 0px
-					background red
-					
-
-				span 
-					margin 0px
-					padding 0px
-					padding-left 20px
-					background yellow
-
-			nav
-				background grey
-				display inline
-				float right 
-				margin: 20px;
-				width 60%
-				/*margin-left 30px
-				margin-top 0px
-				margin-left 50%
-				margin-top -15px*/
 }
-body .principal header .logo {
+header .logo {
   float: left;
   width: 100px;
   height: 100px;
   transition: transform 1s;
 }
-body .principal header .logo:hover {
+header .logo img {
+  transition: transform 1s;
+}
+header .logo img:hover {
   transform: scale(1.2, 1.2);
-/*a
-
-					img*/
 }
-body .principal header .titulos {
-  position: absolute;
-  left: 90px;
-  top: 20px;
+header .titulos {
+  display: inline-block;
+  margin: 15px 0px 0px -10px;
 }
-body .principal header .titulos h1 {
-  display: inline;
+header .titulos .nombre_empresa {
+  font-family: Pacifico;
   margin: 0px;
-  padding: 0px;
+  padding: -5px 8px -5px 8px;
   font-size: 40px;
   color: #33958f;
   text-shadow: 2px 2px 5px rgba(173,213,170,0.5);
 }
-body .principal header .titulos h2 {
-  position: absolute;
-  top: 38px;
-  margin: 0px;
+header .titulos .razon_social {
+  margin: -15px 0px 0px 25px;
   padding: 0px;
-  padding-left: 20px;
   font-size: 23px;
   color: #383838;
   letter-spacing: 0px;
   text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  font-family: Handlee-Regular;
+  font-weight: bold;
 }
-body .principal header nav {
+header nav {
+  display: inline-block;
   float: right;
-  margin-top: 20px;
-  margin-right: 0px;
+  margin: 25px 0px 0px 0px;
   padding: 0px;
 }
-body .principal header nav ul {
+header nav ul {
   text-align: center;
   padding: 0px;
 }
-body .principal header nav ul li {
+header nav ul li {
   display: inline;
   font-size: 25px;
   margin-right: 10px;
   margin-left: 10px;
 }
-body .principal header nav ul li a {
+header nav ul li a {
   text-decoration: none;
   color: #383838;
   transition: transform 1s;
+  font-family: Handlee-Regular;
+  font-weight: bold;
 }
-body .principal header nav ul li a:hover {
+header nav ul li a:hover {
   color: #33958f;
   transform: scale(1.2, 1.2);
-}
-body .principal header ¨/*ul {
-  text-align: center;
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-rigth: 0px;
-  margin: 0px 0px 0px 0px;
-}
-body .principal header ¨/*ul li {
-  display: inline;
-  padding: 10px;
-  font-size: 30px;
-}
-body .principal header ¨/*ul li a {
-  text-decoration: none;
-*
-}
-section .caja_body_index,
-.index .caja_body_index {
-  margin: auto;
-  margin-top: 0;
-  width: 80%;
-  height: 100%;
-  background: #ffa500;
-  position: relative;
-}
-footer {
-  background: #3bbab5;
-}
-footer .caja_footer_index {
-  margin: auto;
-  height: 100%;
-  width: 70%;
-  background: #00f;
-  position: relative;
-  background: #ff0;
 }
