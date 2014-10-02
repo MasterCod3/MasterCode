@@ -93,6 +93,11 @@ header nav ul li a:hover {
   color: #33958f;
   transform: scale(1.2, 1.2);
 }
+section,
+.index,
+.servicios,
+.informacion,
+.contacto,
 footer {
   position: relative;
   width: 100%;
@@ -101,6 +106,11 @@ footer {
   padding: 0px;
   background: #3bbab5;
 }
+section .caja_footer,
+.index .caja_footer,
+.servicios .caja_footer,
+.informacion .caja_footer,
+.contacto .caja_footer,
 footer .caja_footer {
   background: #3bbab5;
   width: 100%;
@@ -111,22 +121,42 @@ footer .caja_footer {
 /*text-align center*/
   position: relative;
 }
+section .caja_footer .llamanos,
+.index .caja_footer .llamanos,
+.servicios .caja_footer .llamanos,
+.informacion .caja_footer .llamanos,
+.contacto .caja_footer .llamanos,
 footer .caja_footer .llamanos {
   display: inline-block;
   background: #3bbab5;
   margin: 10px 40px 0px 0px;
   padding: 0px 0px 0px 0px;
 }
+section .caja_footer .llamanos .logollamanos,
+.index .caja_footer .llamanos .logollamanos,
+.servicios .caja_footer .llamanos .logollamanos,
+.informacion .caja_footer .llamanos .logollamanos,
+.contacto .caja_footer .llamanos .logollamanos,
 footer .caja_footer .llamanos .logollamanos {
   display: inline-block;
   margin: 0px;
   padding: 0px;
 }
+section .caja_footer .llamanos .logollamanos img,
+.index .caja_footer .llamanos .logollamanos img,
+.servicios .caja_footer .llamanos .logollamanos img,
+.informacion .caja_footer .llamanos .logollamanos img,
+.contacto .caja_footer .llamanos .logollamanos img,
 footer .caja_footer .llamanos .logollamanos img {
   float: left;
   width: 68px;
   height: 70px;
 }
+section .caja_footer .llamanos .telefonos,
+.index .caja_footer .llamanos .telefonos,
+.servicios .caja_footer .llamanos .telefonos,
+.informacion .caja_footer .llamanos .telefonos,
+.contacto .caja_footer .llamanos .telefonos,
 footer .caja_footer .llamanos .telefonos {
   display: inline-block;
   float: right;
@@ -134,35 +164,70 @@ footer .caja_footer .llamanos .telefonos {
   padding: 0px;
   color: #fff;
 }
+section .caja_footer .llamanos .telefonos .llama,
+.index .caja_footer .llamanos .telefonos .llama,
+.servicios .caja_footer .llamanos .telefonos .llama,
+.informacion .caja_footer .llamanos .telefonos .llama,
+.contacto .caja_footer .llamanos .telefonos .llama,
 footer .caja_footer .llamanos .telefonos .llama {
   display: block;
   font-weight: bold;
 }
+section .caja_footer .llamanos .telefonos .cel_andres,
+.index .caja_footer .llamanos .telefonos .cel_andres,
+.servicios .caja_footer .llamanos .telefonos .cel_andres,
+.informacion .caja_footer .llamanos .telefonos .cel_andres,
+.contacto .caja_footer .llamanos .telefonos .cel_andres,
 footer .caja_footer .llamanos .telefonos .cel_andres {
   display: block;
   margin: 5px 0px 0px 0px;
 }
+section .caja_footer .llamanos .telefonos .cel_dinael,
+.index .caja_footer .llamanos .telefonos .cel_dinael,
+.servicios .caja_footer .llamanos .telefonos .cel_dinael,
+.informacion .caja_footer .llamanos .telefonos .cel_dinael,
+.contacto .caja_footer .llamanos .telefonos .cel_dinael,
 footer .caja_footer .llamanos .telefonos .cel_dinael {
   display: block;
   margin: 5px 0px 0px 0px;
 }
+section .caja_footer .contactanos,
+.index .caja_footer .contactanos,
+.servicios .caja_footer .contactanos,
+.informacion .caja_footer .contactanos,
+.contacto .caja_footer .contactanos,
 footer .caja_footer .contactanos {
   display: inline-block;
   background: #3bbab5;
   margin: 0px 40px 0px 0px;
   padding: 0px;
 }
+section .caja_footer .contactanos .logocontactanos,
+.index .caja_footer .contactanos .logocontactanos,
+.servicios .caja_footer .contactanos .logocontactanos,
+.informacion .caja_footer .contactanos .logocontactanos,
+.contacto .caja_footer .contactanos .logocontactanos,
 footer .caja_footer .contactanos .logocontactanos {
   display: inline-block;
   margin: 0px;
   padding: 0px;
 }
+section .caja_footer .contactanos .logocontactanos img,
+.index .caja_footer .contactanos .logocontactanos img,
+.servicios .caja_footer .contactanos .logocontactanos img,
+.informacion .caja_footer .contactanos .logocontactanos img,
+.contacto .caja_footer .contactanos .logocontactanos img,
 footer .caja_footer .contactanos .logocontactanos img {
 /*display inline-block*/
   float: left;
   width: 68px;
   height: 70px;
 }
+section .caja_footer .contactanos .contac,
+.index .caja_footer .contactanos .contac,
+.servicios .caja_footer .contactanos .contac,
+.informacion .caja_footer .contactanos .contac,
+.contacto .caja_footer .contactanos .contac,
 footer .caja_footer .contactanos .contac {
   display: inline-block;
   float: right;
@@ -170,35 +235,70 @@ footer .caja_footer .contactanos .contac {
   padding: 0px;
   color: #fff;
 }
+section .caja_footer .contactanos .contac .contacto,
+.index .caja_footer .contactanos .contac .contacto,
+.servicios .caja_footer .contactanos .contac .contacto,
+.informacion .caja_footer .contactanos .contac .contacto,
+.contacto .caja_footer .contactanos .contac .contacto,
 footer .caja_footer .contactanos .contac .contacto {
   display: block;
   font-weight: bold;
 }
+section .caja_footer .contactanos .contac .email_andres,
+.index .caja_footer .contactanos .contac .email_andres,
+.servicios .caja_footer .contactanos .contac .email_andres,
+.informacion .caja_footer .contactanos .contac .email_andres,
+.contacto .caja_footer .contactanos .contac .email_andres,
 footer .caja_footer .contactanos .contac .email_andres {
   diplay: block;
   margin: 5px 0px 0px 0px;
 }
+section .caja_footer .contactanos .contac .email_dinael,
+.index .caja_footer .contactanos .contac .email_dinael,
+.servicios .caja_footer .contactanos .contac .email_dinael,
+.informacion .caja_footer .contactanos .contac .email_dinael,
+.contacto .caja_footer .contactanos .contac .email_dinael,
 footer .caja_footer .contactanos .contac .email_dinael {
   display: block;
   margin: 5px 0px 0px 0px;
 }
+section .caja_footer .redes_sociales,
+.index .caja_footer .redes_sociales,
+.servicios .caja_footer .redes_sociales,
+.informacion .caja_footer .redes_sociales,
+.contacto .caja_footer .redes_sociales,
 footer .caja_footer .redes_sociales {
   display: inline-block;
   background: #3bbab5;
   margin: 0px 40px 0px 0px;
   padding: 0px;
 }
+section .caja_footer .redes_sociales .logosiguenos,
+.index .caja_footer .redes_sociales .logosiguenos,
+.servicios .caja_footer .redes_sociales .logosiguenos,
+.informacion .caja_footer .redes_sociales .logosiguenos,
+.contacto .caja_footer .redes_sociales .logosiguenos,
 footer .caja_footer .redes_sociales .logosiguenos {
   display: inline-block;
   margin: 0px;
   padding: 0px;
 }
+section .caja_footer .redes_sociales .logosiguenos img,
+.index .caja_footer .redes_sociales .logosiguenos img,
+.servicios .caja_footer .redes_sociales .logosiguenos img,
+.informacion .caja_footer .redes_sociales .logosiguenos img,
+.contacto .caja_footer .redes_sociales .logosiguenos img,
 footer .caja_footer .redes_sociales .logosiguenos img {
 /*display inline-block*/
   float: left;
   width: 68px;
   height: 70px;
 }
+section .caja_footer .redes_sociales .siguenos,
+.index .caja_footer .redes_sociales .siguenos,
+.servicios .caja_footer .redes_sociales .siguenos,
+.informacion .caja_footer .redes_sociales .siguenos,
+.contacto .caja_footer .redes_sociales .siguenos,
 footer .caja_footer .redes_sociales .siguenos {
   display: inline-block;
   float: right;
@@ -206,37 +306,72 @@ footer .caja_footer .redes_sociales .siguenos {
   padding: 0px;
   color: #fff;
 }
+section .caja_footer .redes_sociales .siguenos .sigue,
+.index .caja_footer .redes_sociales .siguenos .sigue,
+.servicios .caja_footer .redes_sociales .siguenos .sigue,
+.informacion .caja_footer .redes_sociales .siguenos .sigue,
+.contacto .caja_footer .redes_sociales .siguenos .sigue,
 footer .caja_footer .redes_sociales .siguenos .sigue {
   display: block;
   font-weight: bold;
 }
+section .caja_footer .redes_sociales .siguenos .logos_redes,
+.index .caja_footer .redes_sociales .siguenos .logos_redes,
+.servicios .caja_footer .redes_sociales .siguenos .logos_redes,
+.informacion .caja_footer .redes_sociales .siguenos .logos_redes,
+.contacto .caja_footer .redes_sociales .siguenos .logos_redes,
 footer .caja_footer .redes_sociales .siguenos .logos_redes {
   display: block;
   margin: 10px 0px 0px 0px;
   padding: 0px;
 }
+section .caja_footer .redes_sociales .siguenos .logos_redes img,
+.index .caja_footer .redes_sociales .siguenos .logos_redes img,
+.servicios .caja_footer .redes_sociales .siguenos .logos_redes img,
+.informacion .caja_footer .redes_sociales .siguenos .logos_redes img,
+.contacto .caja_footer .redes_sociales .siguenos .logos_redes img,
 footer .caja_footer .redes_sociales .siguenos .logos_redes img {
   width: 30px;
   margin: 0px;
   padding: 0px;
 }
+section .caja_footer .copyright,
+.index .caja_footer .copyright,
+.servicios .caja_footer .copyright,
+.informacion .caja_footer .copyright,
+.contacto .caja_footer .copyright,
 footer .caja_footer .copyright {
   display: inline-block;
   background: #3bbab5;
   margin: 0px 40px 0px 0px;
   padding: 0px;
 }
+section .caja_footer .copyright .logocopyright,
+.index .caja_footer .copyright .logocopyright,
+.servicios .caja_footer .copyright .logocopyright,
+.informacion .caja_footer .copyright .logocopyright,
+.contacto .caja_footer .copyright .logocopyright,
 footer .caja_footer .copyright .logocopyright {
   display: inline-block;
   margin: 0px;
   padding: 0px;
 }
+section .caja_footer .copyright .logocopyright img,
+.index .caja_footer .copyright .logocopyright img,
+.servicios .caja_footer .copyright .logocopyright img,
+.informacion .caja_footer .copyright .logocopyright img,
+.contacto .caja_footer .copyright .logocopyright img,
 footer .caja_footer .copyright .logocopyright img {
 /*display inline-block*/
   float: left;
   width: 68px;
   height: 70px;
 }
+section .caja_footer .copyright .añocopyright,
+.index .caja_footer .copyright .añocopyright,
+.servicios .caja_footer .copyright .añocopyright,
+.informacion .caja_footer .copyright .añocopyright,
+.contacto .caja_footer .copyright .añocopyright,
 footer .caja_footer .copyright .añocopyright {
   display: inline-block;
   float: right;
@@ -244,6 +379,11 @@ footer .caja_footer .copyright .añocopyright {
   padding: 0px;
   color: #fff;
 }
+section .caja_footer .copyright .añocopyright .año,
+.index .caja_footer .copyright .añocopyright .año,
+.servicios .caja_footer .copyright .añocopyright .año,
+.informacion .caja_footer .copyright .añocopyright .año,
+.contacto .caja_footer .copyright .añocopyright .año,
 footer .caja_footer .copyright .añocopyright .año {
   display: block;
 }
