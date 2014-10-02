@@ -93,3 +93,157 @@ header nav ul li a:hover {
   color: #33958f;
   transform: scale(1.2, 1.2);
 }
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  background: #3bbab5;
+}
+footer .caja_footer {
+  background: #3bbab5;
+  width: 100%;
+  height: auto;
+  margin: 50px 0px 50px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline-block;
+/*text-align center*/
+  position: relative;
+}
+footer .caja_footer .llamanos {
+  display: inline-block;
+  background: #3bbab5;
+  margin: 10px 40px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+footer .caja_footer .llamanos .logollamanos {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+footer .caja_footer .llamanos .logollamanos img {
+  float: left;
+  width: 68px;
+  height: 70px;
+}
+footer .caja_footer .llamanos .telefonos {
+  display: inline-block;
+  float: right;
+  margin: 10px 0px 0px 10px;
+  padding: 0px;
+  color: #fff;
+}
+footer .caja_footer .llamanos .telefonos .llama {
+  display: block;
+  font-weight: bold;
+}
+footer .caja_footer .llamanos .telefonos .cel_andres {
+  display: block;
+  margin: 5px 0px 0px 0px;
+}
+footer .caja_footer .llamanos .telefonos .cel_dinael {
+  display: block;
+  margin: 5px 0px 0px 0px;
+}
+footer .caja_footer .contactanos {
+  display: inline-block;
+  background: #3bbab5;
+  margin: 0px 40px 0px 0px;
+  padding: 0px;
+}
+footer .caja_footer .contactanos .logocontactanos {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+footer .caja_footer .contactanos .logocontactanos img {
+/*display inline-block*/
+  float: left;
+  width: 68px;
+  height: 70px;
+}
+footer .caja_footer .contactanos .contac {
+  display: inline-block;
+  float: right;
+  margin: 10px 0px 0px 10px;
+  padding: 0px;
+  color: #fff;
+}
+footer .caja_footer .contactanos .contac .contacto {
+  display: block;
+  font-weight: bold;
+}
+footer .caja_footer .contactanos .contac .email_andres {
+  diplay: block;
+  margin: 5px 0px 0px 0px;
+}
+footer .caja_footer .contactanos .contac .email_dinael {
+  display: block;
+  margin: 5px 0px 0px 0px;
+}
+footer .caja_footer .redes_sociales {
+  display: inline-block;
+  background: #3bbab5;
+  margin: 0px 40px 0px 0px;
+  padding: 0px;
+}
+footer .caja_footer .redes_sociales .logosiguenos {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+footer .caja_footer .redes_sociales .logosiguenos img {
+/*display inline-block*/
+  float: left;
+  width: 68px;
+  height: 70px;
+}
+footer .caja_footer .redes_sociales .siguenos {
+  display: inline-block;
+  float: right;
+  margin: 10px 0px 0px 10px;
+  padding: 0px;
+  color: #fff;
+}
+footer .caja_footer .redes_sociales .siguenos .sigue {
+  display: block;
+  font-weight: bold;
+}
+footer .caja_footer .redes_sociales .siguenos .logos_redes {
+  display: block;
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+}
+footer .caja_footer .redes_sociales .siguenos .logos_redes img {
+  width: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+footer .caja_footer .copyright {
+  display: inline-block;
+  background: #3bbab5;
+  margin: 0px 40px 0px 0px;
+  padding: 0px;
+}
+footer .caja_footer .copyright .logocopyright {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+footer .caja_footer .copyright .logocopyright img {
+/*display inline-block*/
+  float: left;
+  width: 68px;
+  height: 70px;
+}
+footer .caja_footer .copyright .añocopyright {
+  display: inline-block;
+  float: right;
+  margin: 25px 0px 0px 10px;
+  padding: 0px;
+  color: #fff;
+}
+footer .caja_footer .copyright .añocopyright .año {
+  display: block;
+}
