@@ -2,7 +2,10 @@
 colorbody= #FEFDFD
 colorheader=#E5E5E5
 colorfooter=#3BBAB5
+colortitulos=#8C8B8B
 negro=#383838
+naranja=#EDB888
+letras_negras=#8C8B8B
 
 
 @font-face
@@ -12,129 +15,401 @@ negro=#383838
 @font-face
 	font-family Handlee-Regular
 	src url(fuentes/Handlee-Regular.ttf) format('truetype')
-	
 
+@font-face
+	font-family RockSalt
+	src url(fuentes/RockSalt.ttf) format('truetype')
 
 body
-	text-align center
+	text-align left
 	margin 0px
+	padding 0px
+	background colorbody
 
-	.caja_header
-		position: absolute;
-		width 100%
-		height 70px
-		margin-top 20px
-		background #E5E5E5
-
-	.principal
-		text-align left
-		margin auto 
-		width 80%
-		height 100%
-		position relative
 	
 header
-	position relative
-	width 85%
+	width 100%
 	height auto
-	margin auto
-	margin-top 80px
+	margin 0px
+	background red
 	text-align left
-	
-	.logo
-		float left
-		width 100px
-		height 100px
-		transition transform 1s
-		
-		img
-			transition transform 1s
+	background #E5E5E5
 
-		img:hover
-			transform scale(1.2,1.2)
-				
-
-	.titulos
-		display inline-block
-		margin 15px 0px 0px -10px	
-
-		.nombre_empresa
-			font-family Pacifico
-			margin 0px
-			padding -5px 8px -5px 08px
-			font-size 40px
-			color #33958F
-			text-shadow: 2px 2px 5px rgba(173,213,170,0.5)
-
-			
-					
-		.razon_social
-			margin: -15px 0px 0px 25px
-			padding:0px;
-			font-size 23px
-			color negro
-			letter-spacing: 0px;
-			text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-			font-family Handlee-Regular
-			font-weight: bold
-
-					
-	nav
-		display inline-block
-		float right
-		margin 25px 0px 0px 0px
+	.caja_header
+		width 65%
 		padding 0px
-				
-		ul
-			text-align center
-			padding 0px
-					
-			li
-				display inline
-				font-size 25px
-				margin-right 10px
-				margin-left 10px
-						
-				a
-					text-decoration none
-					color negro
-					transition transform 1s
-					font-family Handlee-Regular
-					font-weight: bold
+		height auto
+		margin auto
+		margin-top 80px
+		text-align left
 
-				a:hover
-					color #33958F
-					transform scale(1.2,1.2)
+		.logo
+			float left
+			width 100px
+			height 100px
+			transition transform 1s
+			margin-top -20px
+			
+			img
+				transition transform 1s
+
+			img:hover
+				transform scale(1.2,1.2)
+						
+
+		.titulos
+			display inline-block
+			margin 0px 0px 0px -10px	
+
+			.nombre_empresa
+				font-family Pacifico
+				margin 0px
+				padding -5px 8px -5px 08px
+				font-size 40px
+				color #33958F
+				text-shadow: 2px 2px 5px rgba(173,213,170,0.5)
+
+					
+							
+			.razon_social
+				margin: -15px 0px 0px 25px
+				padding:0px;
+				font-size 23px
+				color negro
+				letter-spacing: 0px;
+				text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+				font-family Handlee-Regular
+				font-weight: bold
+
+					
+		nav
+			display inline-block
+			float right
+			margin 12px 0px 0px 0px
+			padding 0px
+						
+			ul
+				text-align center
+				padding 0px
+								
+				li
+					display inline
+					font-size 25px
+					margin-right 10px
+					margin-left 10px
+									
+					a
+						text-decoration none
+						color negro
+						transition transform 1s
+						font-family Handlee-Regular
+						font-weight: bold
+							
+					.nav_index
+						color #33958F
+
+					a:hover
+						color #33958F
+						transform scale(1.2,1.2)
+
 
 section
 	
 .index
+	width 80%
+	height auto
+	margin auto
+	position relative
+	
+	.contenido
+		display inline-block
+		position relative
+		margin 100px 0px 100px 0px
+		padding 0px
+		overflow hidden
+
+		.logobody
+			float left
+			width 450px
+			height 450px
+			margin 0px 0px 0px 0px
+			padding 0px
+
+		.saludos
+			float left
+			margin 0px 0px 0px 0px
+			padding 0px 0px 0px 30px
+			
+			.hola
+				display block
+				font-size 80px
+				font-weight bold
+				color letras_negras
+			.sabemos
+				display block
+				font-size 50px
+				font-weight bold
+				color letras_negras
+
+			.logos_paginas_index
+				padding 30px 0px 30px 0px
+				margin 0px
+			.descripcion
+				display block
+				font-size 30px
+				font-weight bold
+				color letras_negras
+			.movil_web
+				font-size 30px
+				font-weight bold
+				color letras_negras
+			.en_una
+				font-size 30px
+				font-weight bold
+				color #E57D22
 	
 .servicios
-	
-.informacion
-	
-.contacto	
+	display block
+	margin 0px 
+	padding 0px
+	width 80%
+	height auto
+	margin auto
 
+	.titulo_servicios
+		width 100%
+		height auto
+		margin 0px
+		padding 0px
+		display block
+		background white
+
+		h1
+			color colortitulos
+			display inline-block
+			background white
+			font-size 80px
+			width 90%
+			height auto
+			margin 50px 20px 20px 20px 
+			padding 0px 0px 2% 0px
+	
+
+article
+	margin 20px 0px 20px 0px
+	padding 0px
+	display inline-block
+	background white
+	border-top 3px solid naranja
 		
+	figure
+		margin 0px
+		padding 0px
+		background white
+
+		img
+			margin 0px
+			padding 20px
+			float left
+
+	div
+		margin 0px
+		padding 7% 7% 0px 0px
+		background white
+
+		p
+			margin 0px
+			padding 0px
+
+	
+
+.informacion
+	display block
+	background white
+	margin 0px 
+	padding 0px
+	width 80%
+	height auto
+	margin auto
+
+	.titulo_nuestrahistoria
+		width 100%
+		height auto
+		margin 0px
+		padding 0px
+		display block
+		background white
+
+		h1
+			color colortitulos
+			border-bottom 3px solid naranja
+			display inline-block
+			background white
+			font-size 80px
+			width 90%
+			height auto
+			margin 50px 20px 20px 20px 
+			padding 0px 0px 2% 0px
+			
+	.img_info_prin
+		width 100%
+		height auto
+		margin 10px 0px 0px 0px
+		padding 0px
+		display block
+					
+		img
+			width 100%
+			height auto
+			margin 0px
+			padding 0px
+			
+	.parrafo_informacion
+		width 100%
+		height 100%
+		background white
+		margin 10px 0px 10px 0px
+		padding 0px 0px 0px 0px
+		text-align center
+
+		.segundo_parrafo_informacion
+			background white
+			margin 2% 30% 5% 30%
+			
+			p
+				background white
+				border-bottom 3px solid colorheader
+				margin 0px 0px 0px 0px
+				padding 0px 0px 7% 0px
+				text-align justify
+
+.contactos
+	display block
+	background white
+	margin 0px 
+	padding 0px
+	width 75%
+	height auto
+	margin auto	
+
+	.titulo_contactos
+		width 100%
+		height auto
+		margin 0px
+		padding 0px
+		display block
+		background white
+
+		h1
+			color colortitulos
+			border-bottom 3px solid naranja
+			display inline-block
+			background white
+			font-size 80px
+			width 90%
+			height auto
+			margin 50px 20px 20px 20px 
+			padding 0px 0px 2% 0px
+
+	.parrafo_total
+		width 100%
+		height 100%
+		background white
+		margin 10px 0px 10px 0px
+		padding 0px 0px 0px 0px
+		text-align center
+
+		.parrafo_centrado
+			background white
+			margin 2% 25% 5% 25%
+			
+			.parrafo_contacto
+				display block
+				
+				p
+					background white
+					border-bottom 3px solid colorheader
+					margin 0px 0px 0px 0px
+					padding 0px 0px 7% 0px
+					text-align justify
+
+			.formulario
+				diplay block
+				margin 10px 0px 10px 0px
+				padding 0px
+				text-align left
+
+			.redes_form
+				display block
+				margin 20px 0px 10px 0px
+				padding 0px
+				text-align left
+
+				a
+					margin 0px
+					padding 0px
+
+					img
+						margin 0px
+						padding 0px
+						width 40px
+					
+			.telefonos_contacto
+				background white	
+				display block
+				margin 10px 0px 10px 0px
+				padding 0px
+				text-align left
+				color colortitulos
+
+				.span_telefonos
+					background white
+					margin 0px
+					padding 0px 0px 0px 0px
+					font-weight bold
+					font-size 20px
+
+				.span_numeros_telefonicos
+					background white
+					margin 0px 0px 0px 10px
+					padding 0px	
+
+			.email_contacto
+				display block
+				margin 20px 0px 0px 0px
+				padding 0px
+				text-align left
+				background white
+				color colortitulos
+
+				.email_form
+					margin 0px
+					padding 0px
+					background white
+					font-weight bold
+					font-size 20px
+
+				.span_email
+					margin 0px 0px 0px 10px
+					padding 0px
+					background white
 
 footer
-	position relative
 	width 100%
 	height auto
 	margin 0px
-	padding 0px
+	padding 20px
+	background red
+	text-align left
 	background colorfooter
 			
 	.caja_footer
 		background colorfooter
-		width 100%
+		width 80%
 		height auto
-		margin 50px 0px 50px 0px
-		padding 0px 0px 0px 0px
-		display inline-block
-		/*text-align center*/
-		position relative
+		margin auto
+		padding 0px
+		text-align left
 
 		.llamanos
 			display inline-block
@@ -162,6 +437,9 @@ footer
 				.llama
 					display block
 					font-weight bold
+					margin 0px
+					padding 0px
+
 							
 				.cel_andres
 					display block
@@ -169,7 +447,7 @@ footer
 
 				.cel_dinael
 					display block
-					margin 5px 0px 0px 0px
+					margin 0px 0px 0px 0px
 
 		.contactanos
 			display inline-block
@@ -182,7 +460,6 @@ footer
 				margin 0px
 				padding 0px
 				img
-					/*display inline-block*/
 					float left
 					width 68px
 					height 70px
@@ -197,14 +474,17 @@ footer
 				.contacto
 					display block
 					font-weight bold
+					margin 0px
+					padding 0px
 
 				.email_andres
 					diplay block
 					margin 5px 0px 0px 0px
+					
 
 				.email_dinael
 					display block
-					margin 5px 0px 0px 0px
+					margin 0px 0px 0px 0px
 
 		.redes_sociales
 			display inline-block
@@ -218,7 +498,6 @@ footer
 				padding 0px
 
 				img
-					/*display inline-block*/
 					float left
 					width 68px
 					height 70px
@@ -256,7 +535,6 @@ footer
 				padding 0px
 
 				img
-					/*display inline-block*/
 					float left
 					width 68px
 					height 70px
@@ -270,18 +548,6 @@ footer
 
 				.año
 					display block
-
-			
-
-
-
-		
-			
-			
-		
-			
-		
-		
-
-
-		
+				.firma
+					font-family RockSalt
+					font-size 10px
