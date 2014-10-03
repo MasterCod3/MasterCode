@@ -20,6 +20,10 @@ letras_negras=#8C8B8B
 	font-family RockSalt
 	src url(fuentes/RockSalt.ttf) format('truetype')
 
+@font-face
+	font-family Amaranth-Regular
+	src url(fuentes/Amaranth-Regular.ttf) format('truetype')
+
 body
 	text-align left
 	margin 0px
@@ -31,7 +35,6 @@ header
 	width 100%
 	height auto
 	margin 0px
-	background red
 	text-align left
 	background #E5E5E5
 
@@ -43,15 +46,16 @@ header
 		margin-top 80px
 		text-align left
 
+
 		.logo
 			float left
 			width 100px
 			height 100px
-			transition transform 1s
+			transition transform 0.5s
 			margin-top -20px
 			
 			img
-				transition transform 1s
+				transition transform 0.5s
 
 			img:hover
 				transform scale(1.2,1.2)
@@ -101,12 +105,20 @@ header
 					a
 						text-decoration none
 						color negro
-						transition transform 1s
+						transition transform 0.5s
 						font-family Handlee-Regular
 						font-weight: bold
+						text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
 							
 					.nav_index
 						color #33958F
+					.nav_servicios
+						color #33958F
+					.nav_informacion
+						color #33958F
+					.nav_contacto
+						color #33958F
+						
 
 					a:hover
 						color #33958F
@@ -139,42 +151,55 @@ section
 			float left
 			margin 0px 0px 0px 0px
 			padding 0px 0px 0px 30px
+			font-family Amaranth-Regular
 			
 			.hola
 				display block
 				font-size 80px
 				font-weight bold
 				color letras_negras
+				text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 			.sabemos
 				display block
 				font-size 50px
 				font-weight bold
 				color letras_negras
+				text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 
 			.logos_paginas_index
 				padding 30px 0px 30px 0px
 				margin 0px
+					
+				img
+					transition transform 0.5s
+				img:hover
+					transform scale(1.1,1.1)
 			.descripcion
 				display block
 				font-size 30px
 				font-weight bold
 				color letras_negras
+				text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 			.movil_web
 				font-size 30px
 				font-weight bold
 				color letras_negras
+				text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 			.en_una
 				font-size 30px
 				font-weight bold
 				color #E57D22
+				text-shadow: 2px 2px 5px rgba(229,154,34,0.6);
 	
 .servicios
 	display block
 	margin 0px 
 	padding 0px
-	width 80%
+	width 75%
 	height auto
 	margin auto
+	font-family Amaranth-Regular
+
 
 	.titulo_servicios
 		width 100%
@@ -182,55 +207,60 @@ section
 		margin 0px
 		padding 0px
 		display block
-		background white
 
 		h1
 			color colortitulos
 			display inline-block
-			background white
 			font-size 80px
 			width 90%
 			height auto
 			margin 50px 20px 20px 20px 
 			padding 0px 0px 2% 0px
+			text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 	
 
 article
 	margin 20px 0px 20px 0px
 	padding 0px
 	display inline-block
-	background white
 	border-top 3px solid naranja
 		
 	figure
 		margin 0px
 		padding 0px
-		background white
 
 		img
 			margin 0px
 			padding 20px
 			float left
+			transition transform 0.5s
+
+		img:hover
+			transform scale(1.2,1.2)
+
 
 	div
 		margin 0px
 		padding 7% 7% 0px 0px
-		background white
 
 		p
 			margin 0px
 			padding 0px
+			text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+			font-size 20px
+			text-align justify
 
 	
 
 .informacion
 	display block
-	background white
 	margin 0px 
 	padding 0px
-	width 80%
+	width 75%
 	height auto
 	margin auto
+	font-family Amaranth-Regular
+
 
 	.titulo_nuestrahistoria
 		width 100%
@@ -238,18 +268,17 @@ article
 		margin 0px
 		padding 0px
 		display block
-		background white
 
 		h1
 			color colortitulos
 			border-bottom 3px solid naranja
 			display inline-block
-			background white
 			font-size 80px
 			width 90%
 			height auto
 			margin 50px 20px 20px 20px 
 			padding 0px 0px 2% 0px
+			text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 			
 	.img_info_prin
 		width 100%
@@ -267,30 +296,30 @@ article
 	.parrafo_informacion
 		width 100%
 		height 100%
-		background white
 		margin 10px 0px 10px 0px
 		padding 0px 0px 0px 0px
 		text-align center
 
 		.segundo_parrafo_informacion
-			background white
-			margin 2% 30% 5% 30%
+			margin 2% 15% 5% 15%
 			
 			p
-				background white
 				border-bottom 3px solid colorheader
 				margin 0px 0px 0px 0px
 				padding 0px 0px 7% 0px
 				text-align justify
+				text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+				font-size 20px
 
 .contactos
 	display block
-	background white
 	margin 0px 
 	padding 0px
 	width 75%
 	height auto
 	margin auto	
+	font-family Amaranth-Regular
+
 
 	.titulo_contactos
 		width 100%
@@ -298,40 +327,37 @@ article
 		margin 0px
 		padding 0px
 		display block
-		background white
 
 		h1
 			color colortitulos
 			border-bottom 3px solid naranja
 			display inline-block
-			background white
 			font-size 80px
 			width 90%
 			height auto
 			margin 50px 20px 20px 20px 
 			padding 0px 0px 2% 0px
-
+			text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 	.parrafo_total
 		width 100%
 		height 100%
-		background white
 		margin 10px 0px 10px 0px
 		padding 0px 0px 0px 0px
 		text-align center
 
 		.parrafo_centrado
-			background white
 			margin 2% 25% 5% 25%
 			
 			.parrafo_contacto
 				display block
 				
 				p
-					background white
 					border-bottom 3px solid colorheader
 					margin 0px 0px 0px 0px
 					padding 0px 0px 7% 0px
 					text-align justify
+					text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+					font-size 20px
 
 			.formulario
 				diplay block
@@ -353,9 +379,11 @@ article
 						margin 0px
 						padding 0px
 						width 40px
+						transition transform 0.5s
+					img:hover
+						transform scale(1.2,1.2)
 					
-			.telefonos_contacto
-				background white	
+			.telefonos_contacto	
 				display block
 				margin 10px 0px 10px 0px
 				padding 0px
@@ -363,43 +391,42 @@ article
 				color colortitulos
 
 				.span_telefonos
-					background white
 					margin 0px
 					padding 0px 0px 0px 0px
 					font-weight bold
 					font-size 20px
+					text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 
 				.span_numeros_telefonicos
-					background white
 					margin 0px 0px 0px 10px
 					padding 0px	
+					text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 
 			.email_contacto
 				display block
 				margin 20px 0px 0px 0px
 				padding 0px
 				text-align left
-				background white
 				color colortitulos
+				text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 
 				.email_form
 					margin 0px
 					padding 0px
-					background white
 					font-weight bold
 					font-size 20px
+					text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 
 				.span_email
 					margin 0px 0px 0px 10px
 					padding 0px
-					background white
+					text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 
 footer
 	width 100%
 	height auto
 	margin 0px
 	padding 20px
-	background red
 	text-align left
 	background colorfooter
 			
@@ -413,7 +440,6 @@ footer
 
 		.llamanos
 			display inline-block
-			background colorfooter
 			margin 10px 40px 0px 0px
 			padding 0px 0px 0px 0px
 					
@@ -433,6 +459,7 @@ footer
 				margin 10px 0px 0px 10px
 				padding 0px
 				color white
+				text-shadow: 2px 2px 5px rgba(0,0,0,1);
 
 				.llama
 					display block
@@ -451,7 +478,6 @@ footer
 
 		.contactanos
 			display inline-block
-			background colorfooter
 			margin 0px 40px 0px 0px
 			padding 0px
 
@@ -470,6 +496,7 @@ footer
 				margin 10px 0px 0px 10px
 				padding 0px
 				color white
+				text-shadow: 2px 2px 5px rgba(0,0,0,1);
 
 				.contacto
 					display block
@@ -488,7 +515,6 @@ footer
 
 		.redes_sociales
 			display inline-block
-			background colorfooter
 			margin 0px 40px 0px 0px
 			padding 0px
 
@@ -508,6 +534,7 @@ footer
 				margin 10px 0px 0px 10px
 				padding 0px
 				color white
+				text-shadow: 2px 2px 5px rgba(0,0,0,1);
 
 				.sigue
 					display block
@@ -522,10 +549,12 @@ footer
 						width 30px
 						margin 0px
 						padding 0px
+						transition transform 0.5s
+					img:hover
+						transform scale(1.2,1.2)
 						
 		.copyright
 			display inline-block
-			background colorfooter
 			margin 0px 40px 0px 0px
 			padding 0px
 
@@ -545,6 +574,7 @@ footer
 				margin 25px 0px 0px 10px
 				padding 0px
 				color white
+				text-shadow: 2px 2px 5px rgba(0,0,0,1);
 
 				.año
 					display block
