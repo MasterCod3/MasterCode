@@ -23,7 +23,7 @@ body {
 header {
   width: 100%;
   height: auto;
-  margin: 0px;
+  margin: 0px 0px 0px 0px;
   text-align: left;
   background: #e5e5e5;
 }
@@ -34,16 +34,18 @@ header .caja_header {
   margin: auto;
   margin-top: 80px;
   text-align: left;
+  overflow: hidden;
 }
 header .caja_header .logo {
   float: left;
-  width: 100px;
-  height: 100px;
+  width: auto;
+  height: auto;
   transition: transform 0.5s;
-  margin-top: -20px;
+  margin-top: 0px;
 }
 header .caja_header .logo img {
   transition: transform 0.5s;
+  padding: 10px;
 }
 header .caja_header .logo img:hover {
   transform: scale(1.2, 1.2);
